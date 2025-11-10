@@ -53,7 +53,9 @@
 		// Amazon Developer Q
 		"AmazonWebServices.amazon-q-vscode",
 		// Claude Code
-		"anthropic.claude-code"
+		"anthropic.claude-code",
+		// Droid (factory.factory-vscode-extension)
+		"factory.factory-vscode-extension"
 	],
       "settings": {
 		"debug.javascript.autoAttachFilter": "disabled", // fix running commands in integrated terminal

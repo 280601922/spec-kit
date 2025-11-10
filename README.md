@@ -51,7 +51,7 @@ Choose your preferred installation method:
 Install once and use everywhere:
 
 ```bash
-uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
+uv tool install specify-cli --from git+https://github.com/280601922/spec-kit.git
 ```
 
 Then use the tool directly:
@@ -64,7 +64,7 @@ specify check
 To upgrade specify run:
 
 ```bash
-uv tool install specify-cli --force --from git+https://github.com/github/spec-kit.git
+uv tool install specify-cli --force --from git+https://github.com/280601922/spec-kit.git
 ```
 
 #### Option 2: One-time Usage
@@ -72,7 +72,7 @@ uv tool install specify-cli --force --from git+https://github.com/github/spec-ki
 Run directly without installing:
 
 ```bash
-uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
+uvx --from git+https://github.com/280601922/spec-kit.git specify init <PROJECT_NAME>
 ```
 
 **Benefits of persistent installation:**
@@ -150,6 +150,7 @@ Want to see Spec Kit in action? Watch our [video overview](https://www.youtube.c
 | [Codex CLI](https://github.com/openai/codex)              | ✅ |                                                   |
 | [Amazon Q Developer CLI](https://aws.amazon.com/developer/learning/q-developer-cli/) | ⚠️ | Amazon Q Developer CLI [does not support](https://github.com/aws/amazon-q-developer-cli/issues/3064) custom arguments for slash commands. |
 | [Amp](https://ampcode.com/) | ✅ | |
+| [Droid](https://factory.ai/) | ✅ | |
 
 ## 🔧 Specify CLI Reference
 
@@ -194,6 +195,9 @@ specify init my-project --ai windsurf
 
 # Initialize with Amp support
 specify init my-project --ai amp
+
+# Initialize with Droid support
+specify init my-project --ai droid
 
 # Initialize with PowerShell scripts (Windows/cross-platform)
 specify init my-project --ai copilot --script ps

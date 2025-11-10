@@ -45,6 +45,7 @@ Specify supports multiple AI agents by generating agent-specific command files a
 | **CodeBuddy CLI** | `.codebuddy/commands/` | Markdown | `codebuddy` | CodeBuddy CLI |
 | **Amazon Q Developer CLI** | `.amazonq/prompts/` | Markdown | `q` | Amazon Q Developer CLI |
 | **Amp** | `.agents/commands/` | Markdown | `amp` | Amp CLI |
+| **Droid AI** | `.factory/commands/` | Markdown | `droid` | Droid AI CLI |
 
 ### Step-by-Step Integration Guide
 
@@ -108,7 +109,7 @@ Modify `.github/workflows/scripts/create-release-packages.sh`:
 ##### Add to ALL_AGENTS array
 
 ```bash
-ALL_AGENTS=(claude gemini copilot cursor-agent qwen opencode windsurf q)
+ALL_AGENTS=(claude gemini copilot cursor-agent qwen opencode windsurf q droid)
 ```
 
 ##### Add case statement for directory structure
@@ -311,6 +312,7 @@ Require a command-line tool to be installed:
 - **Amazon Q Developer CLI**: `q` CLI
 - **CodeBuddy CLI**: `codebuddy` CLI
 - **Amp**: `amp` CLI
+- **Droid**: `droid` CLI
 
 ### IDE-Based Agents
 

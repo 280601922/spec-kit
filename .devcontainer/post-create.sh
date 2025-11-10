@@ -51,6 +51,10 @@ echo -e "\n🤖 Installing OpenCode CLI..."
 run_command "npm install -g opencode-ai@latest"
 echo "✅ Done"
 
+echo -e "\n🤖 Installing Droid CLI..."
+run_command "curl -fsSL https://app.factory.ai/cli | sh"
+echo "✅ Done"
+
 echo -e "\n🤖 Installing Amazon Q CLI..."
 # 👉🏾 https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-verify-download.html
 
