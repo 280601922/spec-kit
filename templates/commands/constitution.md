@@ -1,5 +1,5 @@
 ---
-description: Create or update the project constitution from interactive or provided principle inputs, ensuring all dependent templates stay in sync
+description: 从交互式或提供的原则输入创建或更新项目章程，确保所有依赖模板保持同步
 ---
 
 ## User Input
@@ -9,6 +9,32 @@ $ARGUMENTS
 ```
 
 You **MUST** consider the user input before proceeding (if not empty).
+
+## 语言要求 (Language Requirements)
+
+**所有输出必须使用中文**，包括：
+- 对话和说明文字
+- 文档内容和注释
+- 分析和总结
+
+**保留英文**用于：
+- 技术术语（API, OAuth2, JWT, HTTP, REST, GraphQL, etc.）
+- 代码标识符（变量名、函数名、类名）
+- 命令行指令和参数
+- 文件路径和目录结构
+- 配置文件的键名
+
+**All outputs must be in Chinese**, including:
+- Dialogue and explanatory text
+- Document content and comments
+- Analysis and summaries
+
+**Keep English** for:
+- Technical terms (API, OAuth2, JWT, HTTP, REST, GraphQL, etc.)
+- Code identifiers (variable names, function names, class names)
+- Command-line instructions and arguments
+- File paths and directory structures
+- Configuration file keys
 
 ## Outline
 

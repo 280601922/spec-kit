@@ -1,5 +1,5 @@
 ---
-description: Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec.
+description: 通过提出精准的澄清问题识别当前功能规范中的模糊区域并将答案编码回规范中
 scripts:
    sh: scripts/bash/check-prerequisites.sh --json --paths-only
    ps: scripts/powershell/check-prerequisites.ps1 -Json -PathsOnly
@@ -12,6 +12,32 @@ $ARGUMENTS
 ```
 
 You **MUST** consider the user input before proceeding (if not empty).
+
+## 语言要求 (Language Requirements)
+
+**所有输出必须使用中文**，包括：
+- 对话和说明文字
+- 文档内容和注释
+- 分析和总结
+
+**保留英文**用于：
+- 技术术语（API, OAuth2, JWT, HTTP, REST, GraphQL, etc.）
+- 代码标识符（变量名、函数名、类名）
+- 命令行指令和参数
+- 文件路径和目录结构
+- 配置文件的键名
+
+**All outputs must be in Chinese**, including:
+- Dialogue and explanatory text
+- Document content and comments
+- Analysis and summaries
+
+**Keep English** for:
+- Technical terms (API, OAuth2, JWT, HTTP, REST, GraphQL, etc.)
+- Code identifiers (variable names, function names, class names)
+- Command-line instructions and arguments
+- File paths and directory structures
+- Configuration file keys
 
 ## Outline
 
